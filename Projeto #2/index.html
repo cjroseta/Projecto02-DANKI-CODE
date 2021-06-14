@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha Landing Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" /> <!--incluir-arquivo-de-estilo-->
+	<meta name="description" content="Conteudo do meu site. Aqui voce encontra tudo sobre os produtos e servicos.">
+	<meta name="keywords" content="palavras,separadas,por,virgula">
+	<meta name="author" content="Claudio Roseta" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div><div class="logo-1"></div></div><!--logo-1-->
+			<div><div class="logo-2"></div><!--logo-2-->
+			<div class="clear"></div><!--clear-->
+		</div><!--container-->
+	</header>
+
+	<section class="cover-form">
+		<div class="container bg">
+			<div class="form-container">
+				<h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+				<form>
+					<div class="form-wraper">
+						<p>*Nome Completo:</p>
+						<input type="text" name="nome" required placeholder="Nome">
+					</div><!--form-warp-->
+
+					<div class="form-wraper">
+						<p>*E-mail:</p>
+						<input type="text" name="email" required placeholder="Nome">
+					</div><!--form-warp-->
+
+					<div class="form-wraper">
+						<p>*Telefone:</p>
+						<input type="text" name="telefone" required placeholder="Nome">
+					</div><!--form-warp-->
+
+					<div class="form-wraper">
+						<input type="submit" name="acao" value="Enviar">
+					</div><!--form-wraper-->
+
+					<div class="form-wraper">
+						<p>* Campos Obrigatórios. </p>
+					</div><!--form-wraper-->
+				</form>
+			</div><!--form-conatiner-->
+			
+		</div><!--container-->		
+	</section><!--cover-form-->
+
+	<section class="chamada">
+		<div class="icone-seta"></div>
+		<div class="container">
+			<div><h2>Viva a Vida que você sempre Sonhou</h2></div>
+			<div><p>Coberturas e apartamentos de frente para o mar no João Paulo</p></div>
+			<!--as divs em h2 e p serve para que flutue e vai abaixo-->
+		</div><!--container-->
+	</section><!--chamada-->
+
+	<section class="mosaico">
+		
+		<div class="container">
+
+			<div class="flex-mosaico">
+				<!--uma das formas para inserir reversidade das imagens com o texto seria, inserir style="flex-direction: row-reverse" na class flex-mosaico-->
+				<div style="background-image:url('imagens/mosaico1.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+				<div class="item-2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>	
+				</div><!--item2-mosaico-->
+			</div><!--flex-mosaico-->	
+
+			<div class="flex-mosaico">
+				<div style="background-image:url('imagens/mosaico2.jpg');order: 2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+				<div class="item-2-mosaico" style="order: 1;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>	
+				</div><!--item2-mosaico-->
+			</div><!--flex-mosaico-->	
+
+			<div class="flex-mosaico">
+				<div style="background-image:url('imagens/mosaico3.jpg');" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+				<div class="item-2-mosaico">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>	
+				</div><!--item2-mosaico-->
+			</div><!--flex-mosaico-->	
+
+			<div class="flex-mosaico">
+				<div style="background-image:url('imagens/mosaico4.jpg');order: 2;" class="item-1-mosaico"></div><!--item1-mosaico-->
+
+				<div class="item-2-mosaico" style="order: 1;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae justo eu sapien ultricies dignissim. Vestibulum feugiat interdum pharetra. Curabitur vulputate a lectus nec maximus. Quisque id interdum eros. Donec porta nibh eget diam consectetur fringilla. Proin in urna faucibus, volutpat enim a, maximus ipsum</p>	
+				</div><!--item2-mosaico-->
+			</div><!--flex-mosaico-->	
+
+		</div><!--container-->	
+
+	</section><!--mosaico-->
+
+	<footer>
+		<a href="#"><img src="imagens/logo1.png"></a>
+		<p>Todos os direitos reservados | Powered by Rostech <=> Contato: +258 84 666 6666 | E-mail: info@rostech.net</P>
+	</footer>
+
+</body>
+</html>
